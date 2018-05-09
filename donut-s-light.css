@@ -24,6 +24,16 @@
     *::-moz-focus-inner {
         border: 0;
     }
+    
+    a {
+        transition: all .3s ease-in-out !important;
+    }
+    
+    a:hover {
+        color: var(--primary-color);
+        text-decoration: none;
+        transition: all .3s ease-in-out !important;
+    }
 
     body {
         background: var(--body-bg) !important;
@@ -156,7 +166,7 @@
         font-size: 25pt !important;
         font-family: "Neuton" !important;
         font-weight: bold !important;
-        text-shadow: 4px 3px 0px var(--border-color), 9px 8px 0px rgba(255, 255, 255, .15) !important;
+        text-shadow: 4px 3px 0px var(--border-color) !important;
     }
 
     .navbar-brand:after {
