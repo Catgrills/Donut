@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Donut-S
 @namespace      https://github.com/Catgrills/Donut-S
-@version        1.0.2
+@version        1.0.3
 @description    An userstyle for Nyaa called Donut-S.
 @author         Catgrills/Katgrills
 @preprocessor 	uso
@@ -221,7 +221,8 @@
 	
     .btn-group.bootstrap-select.show-tick {
         width: 150px !important;
-        margin-left: 8px !important;
+	margin-right: -18px !important;
+        margin-left: 27px !important;
     }
 
     .form-control.search-bar:focus {
