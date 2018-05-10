@@ -185,7 +185,6 @@
 
     .navbar-form.navbar-right.form .btn-group {
         border: none !important;
-        margin-right: -10px !important;
     }
 
     .navbar-form.navbar-right.form .btn-group button,
@@ -197,7 +196,11 @@
         color: var(--primary-color) !important;
         font-size: 14pt !important;
         font-stretch: condensed;
-        width: auto !important;
+    }
+    
+    .btn-group.bootstrap-select.show-tick {
+        width: 150px !important;
+        margin-left: 8px !important;
     }
 
     .form-control.search-bar:focus {
