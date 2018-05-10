@@ -7,7 +7,7 @@ Preview of <i>Donut-S</i>.
 About
 -------------------------------
 
-<i>Donut-S</i> is a custom stylesheet for <i>Nyaa.si</i>.
+<i>Donut-S</i> is a custom stylesheet for <i>Nyaa</i>.
 
 Userstyles are CSS code designed to alter the appearance of one, some, or all sites.
 
