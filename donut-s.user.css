@@ -105,11 +105,14 @@
     .alert.alert-warning,
     .control-label,
     .glyphicon,
-    footer,
     .servers-cost-money1 {
         display: none !important;
     }
 
+	footer {
+		visibility: hidden;	
+	}
+	
     /* MODAL */
 
     /** DESCRIPTION : change the elements of the modal box **/
