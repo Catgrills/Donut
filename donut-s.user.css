@@ -1,40 +1,42 @@
 /* ==UserStyle==
 @name           Donut-S
 @namespace      https://github.com/Catgrills/Donut-S
-@version        1.0.4
+@version        1.0.5
 @description    An userstyle for Nyaa called Donut-S.
 @author         Catgrills/Katgrills
-@preprocessor 	uso
+@preprocessor   uso
 @var select theme 'Theme' {
-	"Light": `
-	:root {
+    "Light": `
+    :root {
         --body-bg: #FFF !important;
         --card-bg: #F4F4F4 !important;
         --card-bg-2: #EBEBEB !important;
         --border-color: #EBEBEB !important;
         --border-color-2: #BEBEBE !important;
-		--primary-color: #545454 !important;
+        --primary-color: #545454 !important;
         --secondary-color: #7E7E7E !important;
         --invert: invert(0) !important;
-	}
-	`,
-	"Dark":`
-	:root {
-	    --body-bg: #454851 !important;
-		--card-bg: #0C1821 !important;
+    }
+    `,
+    "Dark":`
+    :root {
+        --body-bg: #454851 !important;
+        --card-bg: #0C1821 !important;
         --card-bg-2: #364652 !important;
         --border-color: #333 !important;
         --border-color-2: #7E7E7E !important;
-		--primary-color: #FFF !important;
+        --primary-color: #FFF !important;
         --secondary-color: #EBEBEB !important;
         --invert: invert(1) !important;
-	}
-	`
+    }
+    `
 }
 ==/UserStyle== */
+
 @-moz-document domain("nyaa.si") {
-/*[[theme]]*/
-    
+
+    /*[[theme]]*/
+
     /* GENERAL */
 
     /** DESCRIPTION : set the main font and change others elements for every page **/
@@ -45,24 +47,24 @@
     *::-moz-focus-inner {
         border: 0;
     }
-	
+
     a {
         transition: all .3s ease-in-out !important;
     }
-    
+
     a:hover {
         color: var(--primary-color);
         text-decoration: none;
         transition: all .3s ease-in-out !important;
     }
-	
-	select {
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		text-indent: 0px;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
+
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 0px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 
     body {
         background: var(--body-bg) !important;
@@ -109,10 +111,10 @@
         display: none !important;
     }
 
-	footer {
-		visibility: hidden;	
-	}
-	
+    footer {
+        visibility: hidden;
+    }
+
     /* MODAL */
 
     /** DESCRIPTION : change the elements of the modal box **/
@@ -229,10 +231,10 @@
         font-size: 14pt !important;
         font-stretch: condensed;
     }
-	
+
     .btn-group.bootstrap-select.show-tick {
         width: 150px !important;
-	    margin-right: -18px !important;
+        margin-right: -18px !important;
         margin-left: 27px !important;
     }
 
@@ -357,12 +359,12 @@
         border-bottom-left-radius: 2px !important;
         box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
     }
-    
+
     .nav.navbar-nav:first-child .dropdown-menu * {
-        color: var(--primary-color);   
+        color: var(--primary-color);
     }
 
-	.dropdown-menu .active a,
+    .dropdown-menu .active a,
     .dropdown-menu li a:hover {
         background: transparent !important;
         color: #EBEBEB !important;
@@ -371,6 +373,12 @@
     /* TORRENTS */
 
     /** DESCRIPTION : change the elements of the torrents page **/
+    .container > h3 {
+        color: var(--primary-color);
+        font-stretch: condensed !important;
+        margin-top: 70px !important;
+    }
+
     .container table {
 
         /*** TORRENTS MAIN CONTAINER ***/
@@ -712,10 +720,10 @@ regexp("https://(nyaa|sukebei.nyaa).si/(help|login|profile|register|upload)") {
     }
 
     /* UPLOAD */
-    
+
     /** DESCRIPTION : change the elements of the upload page **/
-    .navbar-inverse .navbar-nav > .active > a, 
-    .navbar-inverse .navbar-nav > .active > a:hover, 
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:hover,
     .navbar-inverse .navbar-nav > .active > a:focus {
         background: transparent !important;
         color: var(--secondary-color) !important;
@@ -726,7 +734,7 @@ regexp("https://(nyaa|sukebei.nyaa).si/(help|login|profile|register|upload)") {
         font-size: 14pt !important;
         font-stretch: condensed !important;
     }
-    
+
     .container .form-group .input-group .btn {
         background: var(--card-bg) !important;
         border: none !important;
@@ -745,24 +753,24 @@ regexp("https://(nyaa|sukebei.nyaa).si/(help|login|profile|register|upload)") {
         font-stretch: condensed;
         height: 40px;
     }
-    
+
     .col-md-6 .btn {
         border: none;
         box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
         margin-right: 10px !important;
     }
-    
+
     .col-md-6 .btn.btn-default {
         background: var(--card-bg) !important;
         border: none !important;
         color: var(--primary-color) !important;
         height: 40px !important;
     }
-    
+
     .nav.nav-tabs {
         border: none !important;
     }
-    
+
     #description-tab #description,
     #description-markdown-target {
         background: var(--card-bg);
@@ -781,4 +789,6 @@ regexp("https://(nyaa|sukebei.nyaa).si/(help|login|profile|register|upload)") {
         color: var(--primary-color) !important;
         padding: 8px 10px !important;
     }
+
 }
+
