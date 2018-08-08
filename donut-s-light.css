@@ -24,24 +24,24 @@
     *::-moz-focus-inner {
         border: 0;
     }
-    
+
     a {
         transition: all .3s ease-in-out !important;
     }
-    
+
     a:hover {
         color: var(--primary-color);
         text-decoration: none;
         transition: all .3s ease-in-out !important;
     }
-	
+
     select {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	text-indent: 0px;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-    }  
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 0px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 
     body {
         background: var(--body-bg) !important;
@@ -87,9 +87,9 @@
     .servers-cost-money1 {
         display: none !important;
     }
-	
+
     footer {
-	visibility: hidden;	
+        visibility: hidden;
     }
 
     /* MODAL */
@@ -208,10 +208,10 @@
         font-size: 14pt !important;
         font-stretch: condensed;
     }
-    
+
     .btn-group.bootstrap-select.show-tick {
         width: 150px !important;
-	    margin-right: -18px !important;
+        margin-right: -18px !important;
         margin-left: 27px !important;
     }
 
@@ -331,13 +331,14 @@
     .nav.navbar-nav:first-child .dropdown-menu {
         background: var(--card-bg) !important;
         border: none !important;
+        border-radius: 2px !important;
         border-bottom-right-radius: 2px !important;
         border-bottom-left-radius: 2px !important;
-        box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
     }
 
     .nav.navbar-nav:first-child .dropdown-menu * {
-        color: var(--primary-color);   
+        color: var(--primary-color);
     }
 
     .dropdown-menu .active a,
@@ -349,6 +350,12 @@
     /* TORRENTS */
 
     /** DESCRIPTION : change the elements of the torrents page **/
+    .container > h3 {
+        color: var(--primary-color);
+        font-stretch: condensed !important;
+        margin-top: 70px !important;
+    }
+
     .container table {
 
         /*** TORRENTS MAIN CONTAINER ***/
@@ -688,12 +695,12 @@ regexp("https://(nyaa|sukebei.nyaa).si/(help|login|profile|register|upload)") {
     hr {
         display: none;
     }
-	
+
     /* UPLOAD */
-    
+
     /** DESCRIPTION : change the elements of the upload page **/
-    .navbar-inverse .navbar-nav > .active > a, 
-    .navbar-inverse .navbar-nav > .active > a:hover, 
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:hover,
     .navbar-inverse .navbar-nav > .active > a:focus {
         background: transparent !important;
         color: var(--secondary-color) !important;
@@ -704,7 +711,7 @@ regexp("https://(nyaa|sukebei.nyaa).si/(help|login|profile|register|upload)") {
         font-size: 14pt !important;
         font-stretch: condensed !important;
     }
-    
+
     .container .form-group .input-group .btn {
         background: var(--card-bg) !important;
         border: none !important;
@@ -723,24 +730,24 @@ regexp("https://(nyaa|sukebei.nyaa).si/(help|login|profile|register|upload)") {
         font-stretch: condensed;
         height: 40px;
     }
-    
+
     .col-md-6 .btn {
         border: none;
         box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
         margin-right: 10px !important;
     }
-    
+
     .col-md-6 .btn.btn-default {
         background: var(--card-bg) !important;
         border: none !important;
         color: var(--primary-color) !important;
         height: 40px !important;
     }
-    
+
     .nav.nav-tabs {
         border: none !important;
     }
-    
+
     #description-tab #description,
     #description-markdown-target {
         background: var(--card-bg);
