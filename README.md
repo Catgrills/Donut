@@ -7,7 +7,7 @@ Preview of <i>Donut-S</i>.
 About
 -------------------------------
 
-<i>Donut-S</i> is an userstyle for <i>Nyaa</i>.
+<i>Donut-S</i> is an user style for <i>Nyaa</i>.
 
 User styles are CSS code designed to alter the appearance of one, some, or all sites.
 
