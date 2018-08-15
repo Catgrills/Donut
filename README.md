@@ -1,13 +1,13 @@
-# Donut-S
+# Donut
 
-<img src="preview_donut-s.png" width="100%">
+<img src="preview.png" width="100%">
 
-Preview of <i>Donut-S</i>.
+Preview of <i>Donut</i>.
 
 About
 -------------------------------
 
-<i>Donut-S</i> is an user style for <i>Nyaa</i>.
+<i>Donut</i> is an user style for <i>Nyaa</i>.
 
 User styles are CSS code designed to alter the appearance of one, some, or all sites.
 
@@ -22,8 +22,7 @@ Instruction
 + for <a href="https://addons.opera.com/en-gb/extensions/details/stylus/?display=en">Opera</a>
 
 <strong>Step 2 : Install the script </strong>
-+ Via <b>userstyles</b> : <a href="https://userstyles.org/styles/159697/donut-s-dark-nyaa-css">Dark theme</a> or <a href="https://userstyles.org/styles/159698/donut-s-light-nyaa-css">Light theme</a>
-+ Or directly with <b>Stylus</b> : <a href="https://raw.githubusercontent.com/Catgrills/Donut-S/master/donut-s.user.css">click here</a>
++ Directly with <b>Stylus</b> : <a href="https://raw.githubusercontent.com/Catgrills/Donut/master/nyaa.user.css">click here</a>
 
 <strong>Step 3 : Install the font </strong>
 
