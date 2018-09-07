@@ -7,7 +7,7 @@ Preview of <i>Donut</i>.
 About
 -------------------------------
 
-<i>Donut</i> is an user style for <i>Nyaa</i>.
+<i>Donut</i> is a user style for <i>Nyaa</i>.
 
 User styles are CSS code designed to alter the appearance of one, some, or all sites.
 
