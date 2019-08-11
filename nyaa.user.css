@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Donut
 @namespace      https://github.com/Catgrills/Donut
-@version        1.0.5
+@version        1.0.6
 @description    An user style for Nyaa called Donut.
 @author         Catgrills/Katgrills
 @preprocessor   uso
@@ -450,11 +450,17 @@
         color: #E71D36 !important;
     }
 
+    table.torrent-list td:nth-child(6), 
+    body.dark table.torrent-list > tbody > tr.success > td:nth-child(6), 
+    body.dark table.torrent-list > tbody > tr.danger > td:nth-child(6),
     .container table tr.success td *,
     .container table tr.success td a:visited {
         color: #43AA8B !important;
     }
 
+    table.torrent-list td:nth-child(7), 
+    body.dark table.torrent-list > tbody > tr.success > td:nth-child(7), 
+    body.dark table.torrent-list > tbody > tr.danger > td:nth-child(7),
     .container table tr.danger td *,
     .container table tr.danger td a:visited {
         color: #DB504A !important;
@@ -511,6 +517,7 @@
     }
 
     .container .panel .panel-heading h3 {
+        color: #FFF;
         font-size: 16pt !important;
         font-stretch: condensed;
         line-height: 22pt;
